@@ -7,12 +7,14 @@
 a {
 	display: block;
 	text-decoration: none;
+	color: white;
 }
 
 a:hover {
-	text-decoration: none;
+	background: linear-gradient(90deg, #34005f 20%, #6a00c0 70%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
-
 
 img {
 	vertical-align: top;
@@ -344,13 +346,13 @@ html, body {
 	top: -150px;
 	height: 600px;
 	width: 100%;
-	color: black;
+	background-image: linear-gradient(270deg, rgb(39, 39, 39), #1b1b1b);
 	text-align: center;
 	font-size: 40px;
 	z-index: 3;
 	padding: 16px 24px;
 	border-radius: 0px;
-	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01);
+	box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.616);
 }
 
 .dop_info::after {
@@ -403,8 +405,13 @@ html, body {
 	
 }
 
+.img {
+	border-radius: 30px;
+	box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.616);
+}
+
 .image-slider__image img {
-	max-width: 80%;
+	max-width: 70%;
 	margin: 0;
 }
 
@@ -415,7 +422,7 @@ html, body {
 }
 
 .image-slider .swiper-pagination {
-	bottom: 30px;
+	bottom: 50px;
 }
 
 /* кнопки */
@@ -441,18 +448,105 @@ html, body {
 	background-color: #2e2e2e;
 }
 
+
 .footer {
 	position: absolute;
 	margin-top: -150px;
 	height: 30%;
 	width: 100%;
-	background: hsl(0, 0%, 7%);
+	background-image: linear-gradient(270deg, #000000, #1b1b1b);
 	z-index: 1;
-	padding: 40px;
-	padding-top: 60px;
 }
 
-.fir-link {
+.logo {
+	position: absolute;
+	height: 100%;
+	width: 15%;
+	top: 0px;
+	margin-left: 1550px;
+}
+
+.links-left {
+	margin-top: 80px;
+	margin-left: 150px;
+}
+
+.link-first {
 	font-size: 30px;
 }
 
+.link-second, .link-third, .link-fourth {
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+.link-first {
+	width: 14%;
+	transition: 1s;
+}
+
+.link-first:hover {
+	transform: scale(1.2);
+}
+
+.link-second {
+	width: 6%;
+	transition: 1s;
+}
+
+.link-second:hover {
+	transform: scale(1.2);
+}
+
+.link-third {
+	width: 5%;
+	transition: 1s;
+}
+
+.link-third:hover {
+	transform: scale(1.2);
+}
+
+.link-fourth {
+	width: 6%;
+	transition: 1s;
+}
+
+.link-fourth:hover {
+	transform: scale(1.2);
+}
+
+.links-center {
+	font-size: 25px;
+	margin-left: 850px;
+	margin-top: -115px;
+}
+
+.link-fif {
+	width: 18%;
+	transition: 1s;
+}
+
+.link-fif:hover {
+	transform: scale(1.2);
+}
+
+.link-six {
+	margin-top: 20px;
+	width: 20%;
+	transition: 1s;
+}
+
+.link-six:hover {
+	transform: scale(1.2);
+}
+
+.link-sev {
+	margin-top: 20px;
+	width: 24%;
+	transition: 1s;
+}
+
+.link-sev:hover {
+	transform: scale(1.2);
+}

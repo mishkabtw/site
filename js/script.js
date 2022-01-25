@@ -128,7 +128,7 @@ let myImageSlider = new Swiper('.image-slider', {
 	// Навигация по хешу
 	hashNavigation: {
 		// Отслеживать состояние
-		watchState: true,
+		watchState: false,
 	},
 
 	// Управление клавиатурой
@@ -156,7 +156,7 @@ let myImageSlider = new Swiper('.image-slider', {
 	watchOverflow: true,
 
 	// Отступ между слайдами
-	spaceBetween: 20,
+	spaceBetween: 100,
 
 	// Количество пролистываемых слайдов
 	slidesPerGroup: 1,
@@ -255,7 +255,7 @@ let myImageSlider = new Swiper('.image-slider', {
 		// Тень
 		slideShadows: true,
 	},
-	*/
+	
 	/*
 	// Брейк поинты (адаптив)
 	// Ширина экрана
