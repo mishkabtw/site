@@ -233,7 +233,7 @@ html, body {
 }
 
 .content {
-	background-color: red;
+	background-color: blue;
 	position: relative;
 	z-index: 2;
 	width: 100%;
